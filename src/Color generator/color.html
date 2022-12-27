@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <style>
+            h1{
+                text-align: center;
+            }
+            body{
+                margin:0;
+                padding: 0;
+                background: #e74c3c;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .colors{
+                margin-top:300px ;
+                text-align: center;
+            }
+            #hex{
+                display: block;
+                color: white;
+                font-size: 40px;
+                text-transform: uppercase;
+                margin: 20px;
+            }
+            .color button{
+                background: none;
+                outline: none;
+                color: white;
+                border: 3px solid white;
+                cursor: pointer;
+                font-size: 24px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Different color generator</h1>
+        <div class="colors">
+            <span id="hex"> #e74c3c</span>
+            <button onclick="getNewcolor()">Get New Color</button>
+        </div>
+        <script src="color.js" type="text/javascript">
+        </script>
+    </body>
+</html>
